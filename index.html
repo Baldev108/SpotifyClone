@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify-clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="container">
+        <div class="navigation">
+        <nav>
+            <ul>
+                <li class="brand"><img src ='spotify.png' alt="Spotify" style="text-align: center;">Spotify</li>
+              <li><i class="fa-solid fa-home fa-lg"></i>Home</li> 
+              <li ><i class="fa-solid fa-magnifying-glass fa-lg"></i> Search</li>
+              <li><i class="fa-solid fa-bars fa-lg"></i> Library</li>
+              <li><i class="fa-solid fa-bars fa-lg"></i> Liked Songs</li>
+           
+            </ul>
+        </nav>
+
+          
+          <!-- ... (your HTML code) -->
+
+<div class="recently-played">
+
+  <!-- Adjust the class and ID to match the "soongs2Play" class -->
+  <div class="soongs2">
+    <img src="cover1.jpg" alt="">
+    <span class="songName">The real slim shady</span>
+    <span class="songs list play">
+      <span class="time-stamp">4:32
+        <!-- Change the ID to match the index -->
+        <i id="soongs2Play0" class="fa-solid soongs2Play fa-play fa-lg"></i>
+      </span>
+    </span>
+  </div>
+  
+  <!-- Repeat the same structure for other songs -->
+  <div class="soongs2">
+    <img src="cover1.jpg" alt="">
+    <span class="songName">Another Song</span>
+    <span class="songs list play">
+      <span class="time-stamp">3:45
+        <!-- Change the ID to match the index -->
+        <i id="soongs2Play1" class="fa-solid soongs2Play fa-play fa-lg"></i>
+      </span>
+    </span>
+  </div>
+  <div class="soongs2">
+    <img src="cover1.jpg" alt="">
+    <span class="songName">Another Song</span>
+    <span class="songs list play">
+      <span class="time-stamp">3:45
+        <!-- Change the ID to match the index -->
+        <i id="soongs2Play2" class="fa-solid soongs2Play fa-play fa-lg"></i>
+      </span>
+    </span>
+  </div>
+  
+  
+  <!-- Repeat the same structure for other songs -->
+  
+</div> 
+
+<!-- ... (rest of your HTML code) -->
+
+        
+        </div>
+        
+        <div class="songlists">
+        <h1>     2023 Songs mix    </h1>
+        <div class="songItems">
+          <img src="cover1.jpg" alt="">
+          <span class="songName">The real slim shady</span>
+        <span class="songs list play"><span class="time-stamp">4:32 <i id="0" class=" fa-solid songItemsPlay  fa-play fa-lg"></i></span> </span>
+        </div>
+        <div class="songItems">
+            <img src="cover1.jpg" alt="">
+            <span class="songName">The real slim shady</span>
+          <span class="songs list play"><span class="time-stamp">4:32 <i id ="1" class="fa-solid songItemsPlay fa-play fa-lg"></i></span> </span>
+          </div>
+          <div class="songItems">
+            <img src="cover1.jpg" alt="">
+            <span class="songName">The real slim shady</span>
+          <span class="songs list play"><span class="time-stamp">4:32 <i  id = "2" class="fa-solid songItemsPlay fa-play fa-lg"></i></span> </span>
+          </div>
+          <div class="songItems">
+            <img src="cover1.jpg" alt="">
+            <span class="songName">The real slim shady</span>
+          <span class="songs list play"><span class="time-stamp">4:32 <i id="0" class="fa-solid songItemsPlay fa-play fa-lg"></i></span> </span>
+          </div>
+        </div>
+        <div class="song-cover">
+            
+        </div>
+        
+        
+        
+    </div>
+   <div class="bottom">
+   
+      <span id="masterSongName"></span>
+      
+   
+   <div class="icon">
+
+    <i class="fa-solid fa-backward-step fa-lg" id="previous"></i>
+    <i class="fa-solid fa-play fa-lg " id ="masterPlay"></i>
+    <i class="fa-solid fa-forward-step fa-lg" id="next"></i>
+    
+   </div>
+   
+   
+   <input type="range" name="range" id="myProgressBar" min="0"  value="0"     max="100">
+   <div class="songInfo"> 
+   </div>
+   
+   </div>
+
+
+   <script src="https://kit.fontawesome.com/ec58d8dc50.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

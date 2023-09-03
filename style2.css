@@ -1,0 +1,34 @@
+/* .container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 60px;
+    color: whitesmoke;
+} */
+
+.navigation{
+    display: contents;
+}
+
+body{
+    background-color: rgb(7, 6, 6);
+    display: flex;
+}
+
+.brand{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.brand img{
+width: 100px;
+
+}
+.songs{
+    color: white;
+}
+
+.songlists{
+    width: fit-content;
+    height: 70%;
+}

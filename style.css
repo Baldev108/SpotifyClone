@@ -1,0 +1,155 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    width:25%;
+    justify-content: flex-start;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    width: 26%;
+    border-radius: 25px;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+nav ul li{
+    margin: 10px ;
+    padding: 0 10px;
+    cursor: pointer;
+}
+nav i {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+nav ul{
+    padding: 100px;
+    display: contents;
+    justify-content:center ;
+    /* align-items: center; */
+    list-style-type: none;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.navigation.recently-played{
+    color: white;
+    padding: 0px;
+    margin: auto;
+}
+
+.brand img{
+    width: 65px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    color: white;
+    min-height: 83vh;
+    display: flex;
+    margin: 23px auto;
+    width: 100%;
+   
+}
+
+.bottom{
+    position: sticky;
+    height: 70px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    background-color: rgb(80, 2, 80);
+    border-radius: 14px;
+    font-family:'Poppins', sans-serif ;
+}
+
+.icon{
+    margin: 5px; 
+}
+.icon i{
+    cursor: pointer;
+    margin: 10px;
+}
+
+#myProgressBar{
+    width: 80vh ;
+    cursor: pointer;
+    
+}
+
+.masterSongName2{
+    display: flex;
+
+ 
+}
+
+
+
+.soongs2{
+   
+        justify-content: space-between;
+         height: 100px;
+         display: flex;
+         color : white;
+         align-items: center;
+         margin: 12px 0;
+         background-color: black;
+         border-radius: 40px;
+        
+}
+.soongs2 img {
+    width: 100px;
+    margin: 23px 0;
+    border-radius: 5px;
+}
+.songlists{
+    background-image: url('icespiceand\ nicki\ minaj.png');
+    width:100%;
+}
+.songItems{
+   justify-content: space-between;
+    height: 100px;
+    display: flex;
+    color : white;
+    align-items: center;
+    margin: 12px 0;
+    background-color: black;
+    border-radius: 40px;
+    width: 30%;
+}
+
+.songItems img {
+    width: 100px;
+    margin: 23px 0;
+    border-radius: 5px;
+}
+
+.time-stamp{
+    margin: 0 34px;
+    cursor: pointer;
+}
+.song-cover{
+    background-image: url('icespiceand nicki minaj.png');
+}
